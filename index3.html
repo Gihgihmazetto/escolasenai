@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escola Senai</title>
+    <style>
+        #inicio {
+            background-color: rgb(255, 255, 255);
+            margin: 36%;
+            margin-top: 3%;
+            border-radius: 4px;
+            border: 7px solid rgb(254, 170, 44)
+        }
+
+        h1 {
+            text-align: center;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: rgb(10, 7, 7)
+        }
+
+        .arredonda {
+            border-radius: 10px;
+        }
+
+        button {
+            color: rgb(255, 255, 255);
+            background-color: rgb(254, 170, 44);
+
+        }
+
+        body {
+            background-color: rgb(241, 241, 241);
+        }
+
+        .esq {
+            margin-left: -140px;
+        }
+
+        .esq2 {
+            margin-left: -140px;
+        }
+
+        .esq3 {
+            margin-left: -140px;
+        }
+
+        .esquerda {
+            margin-left: -120px;
+        }
+
+        .esquerda2{
+            margin-left: -120px;
+        }
+
+        .esquerda3{
+            margin-left: -120px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <br>
+    <h1>Escola SENAI Ourinhos</h1>
+    <div id="inicio">
+        <center>
+            <br><br>
+            <img src="https://img.freepik.com/vetores-gratis/edificio-escolar-colorido-na-natureza_1308-166746.jpg"
+                width="100" height="100">
+            <br><br>
+            <form action="escola.php" method="post">
+                <strong><label class="esq">Nota 1:</label></strong><br>
+                <input type="number" class="esquerda" step="0.1" min="0" max="10" name="nota1" required>
+                <br><br>
+                <strong><label class="esq2">Nota 2:</label></strong><br>
+                <input type="number" class="esquerda2" step="0.1" min="0" max="10" name="nota2" required>
+                <br><br>
+                <strong><label class="esq3">Nota 3:</label></strong><br>
+                <input type="number" class="esquerda3" step="0.1" min="0" max="10" name="nota3" required>
+                <br><br>
+                <button type="submit">Calcular</button>
+                <button type="reset">Limpar</button>
+                <br><br>
+        </center>
+        </form>
+    </div>
+
+
+
+</body>
+
+</html>
